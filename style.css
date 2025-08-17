@@ -1,11 +1,37 @@
 
 
 /* Hero Section */
-  .custom-carousel-img {
+.custom-carousel-img {
   height: 500px;      
   object-fit: cover;    
 }
 .container-fluid{
   margin:0  !important;
   padding:0 !important;
+}
+/*industry section*/
+ body {
+  background: #0c0f14 !important;
+  color:#fff;
+}
+.brand-card {
+  background: #222222;
+  border: 1px;
+  border-radius: 16px;
+  height: 100%;
+}
+.brand-card:hover {
+  transform: translateY(-5px);
+  background: #222222;
+}
+.brand-icon {
+  width: 55px; 
+  height: 55px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  border-radius: 12px;
+  background:#fff;
+  font-size: 26px;
+  margin-right: 12px;
 }
