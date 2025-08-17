@@ -5,3 +5,7 @@
   height: 657px;         /* set the height you want */
   object-fit: cover;     /* keeps it neat without stretching */
 }
+.container-fluid{
+  margin:0  !important;
+  padding:0 !important;
+}
