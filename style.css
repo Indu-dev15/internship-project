@@ -1,4 +1,42 @@
- /* Hero Section */
+
+/* ✅ Mobile UX Tweaks */
+@media (max-width: 576px) {
+
+  /* Resize headings & text */
+  h1 {
+    font-size: 1.6rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  /* Better button + link tap area */
+  button, .btn, a {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  /* Reduce empty spaces on corners */
+  .container, .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Make images scale properly */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Prevent overflow (no sideways scroll) */
+  body {
+    overflow-x: hidden;
+  }
+}/* Hero Section */
   .custom-carousel-img {
   height: 657px;         /* set the height you want */
   object-fit: cover;     /* keeps it neat without stretching */
