@@ -1,14 +1,5 @@
-body {
-  background-color: lightblue;
-  font-family: Arial, sans-serif;
-}
-
-h1 {
-  color: darkblue;
-  text-align: center;
-}
-
-p {
-  font-size: 18px;
-  color: darkgreen;
+ /* Hero Section */
+  .custom-carousel-img {
+  height: 657px;         /* set the height you want */
+  object-fit: cover;     /* keeps it neat without stretching */
 }
