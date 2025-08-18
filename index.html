@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>NxtTalks | myintern project</title>
   <!-- Bootstrap CSS -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -18,7 +19,7 @@
 </head>
 <body>
 
- <title>NxtTalks - Nav bar</title>
+ <title>NxtTalks | Nav bar</title>
    <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top shadow-sm fixed-top ms-auto">
     <div class="container-fluid">
@@ -29,9 +30,9 @@
           <a class="nav-link active mr-3" style="color:white" onclick="display('carouselExampleCaptions')" href="#">
             Home <span class="sr-only">(current)</span>
           </a>
-          <a class="nav-link mr-3" style="color:white" href="#">About Me</a>
-          <a class="nav-link mr-3" style="color:white" href="#">Projects</a>
+          <a class="nav-link mr-3" style="color:white" href="#">Talks</a>
           <a class="nav-link mr-3" style="color:white" href="#">Speakers</a>
+          <a class="nav-link mr-3" style="color:white" href="#">About Us</a>
           <a class="nav-link mr-3" style="color:white" href="#">Contact</a>
         </div> 
       </button>
@@ -44,7 +45,7 @@
       </div>
   </nav>
 
-     <title>NxtTalks - Hero Section</title>
+     <title>NxtTalks | Hero Section</title>
    <!-- Hero section -->
 <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
@@ -116,7 +117,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
+ 
+   <!-- Section -->
   <section class="pt-4 pb-5 bg-dark">
     <div class="container">
       <header class="text-center mb-5">
@@ -125,9 +127,8 @@
           Join companies worldwide who trust <span class="text-light">NxtTalks</span> for professional development
         </p>
       </header>
-
+ <!--content-->
       <div class="row g-4 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
-        
         <div class="col">
           <div class="brand-card p-3 d-flex align-items-center">
             <div class="brand-icon"><i class="bi bi-rocket-takeoff"></i></div>
@@ -175,88 +176,153 @@
   </section>
  
 
-  <title>NxtTalks - Featured Talks</title>
-  <!-- Bootstrap CSS -->
+  <title>NxtTalks | Featured Talks</title>
+<!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
-<div class="container py-5">
+  <!-- Section -->
+  <section class=" body container py-5">
+    <h2 class="fw-bold text-center text-white mb-3">Featured Talks & Podcasts</h2>
+    <p class="text-center text-secondary">
+      Discover insights from industry leaders, innovators, and experts across technology, business, and career development
+    </p>
 
-  <!-- Featured Talks Section -->
-  <div class="text-center mb-4">
-    <h2 style="color:#ffffff">Featured Talks & Podcasts</h2>
-    <p class="text-white" style="color:white">Discover insights from industry leaders, innovators, and experts across technology, business, and career development</p>
-  </div>
-
-  <!-- Filter Tabs -->
-  <div class="d-flex justify-content-center mb-4">
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">🔥 Trending</a>
+    <!-- Tabs -->
+    <ul class="nav nav-pills justify-content-center my-4" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active " id="pills-trending-tab" data-bs-toggle="pill" data-bs-target="#pills-trending" type="button" role="tab">🔥 Trending</button>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">💻 Tech</a>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-tech-tab" data-bs-toggle="pill" data-bs-target="#pills-tech" type="button" role="tab">💻 Tech</button>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">🎯 Career</a>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-career-tab" data-bs-toggle="pill" data-bs-target="#pills-career" type="button" role="tab">🎯 Career</button>
       </li>
     </ul>
-  </div>
 
-  <!-- Talks Cards-trending -->
-  <div class="row g-4">
-    <!-- Card 1 -->
-    <div class="col-md-4">
-      <div class="talk-card position-relative">
-        <img src="https://media.istockphoto.com/id/1226991423/photo/on-stage-successful-female-speaker-presents-technological-product-uses-remote-control-for.webp?a=1&b=1&s=612x612&w=0&k=20&c=Bid7qfe0csIwBMmtqkG5jsbqeBSm4U1elc_zw_wOpq8=" class="talk-img" alt="Talk">
-        <span class="time-badge">45 min</span>
-        <div class="talk-body">
-          <h5 style="color:#ffffff">The Future of AI in Business</h5>
-          <p class="text-white">Explore how artificial intelligence is transforming industries...</p>
-          <div class="d-flex justify-content-between">
-          <small style="color:#ffffff">👩‍💼 Dr. Sarah Chen</small>
-          <small style="color:#ffffff">📅 Dec 15, 2023</small>
+    <!-- Tab Content -->
+    <div class="tab-content" id="pills-tabContent">
+
+      <!-- Trending -->
+      <div class="tab-pane fade show active" id="pills-trending" role="tabpanel">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://media.istockphoto.com/id/1226991423/photo/on-stage-successful-female-speaker-presents-technological-product-uses-remote-control-for.webp?a=1&b=1&s=612x612&w=0&k=20&c=Bid7qfe0csIwBMmtqkG5jsbqeBSm4U1elc_zw_wOpq8=" class="card-img-top" alt="...">
+              <div class="card-body" style="color:#ffffff">
+                <h5 class="card-title">The Future of AI in Business</h5>
+                <p class="card-text">Explore how AI is transforming industries and creating new opportunities...</p>
+                <p class="text-secondary small">👩‍💼 Dr. Sarah Chen • Dec 15, 2023 • ⏱ 45 min</p>
+                <a href="#" class="btn btn-custom w-100 bg-success">Listen Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="color:#ffffff">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxlYWRlcnNoaXB8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Building Scalable Startups</h5>
+                <p class="card-text">Learn the essential strategies for scaling your startup...</p>
+                <p class="text-secondary small">👨‍💼 Mark Rodriguez • Dec 12, 2023 • ⏱ 38 min</p>
+                <a href="#" class="btn btn-custom w-100 bg-success">Listen Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="color:#ffffff">
+              <img src="https://media.istockphoto.com/id/2163665345/photo/conference-presentation-or-seminar-and-public-speaking-woman-with-microphone-on-stage-for.webp?a=1&b=1&s=612x612&w=0&k=20&c=wJDfukCQ1F3lPrMKR1lxKruKau2CsmjNJSzrG0zAagk=" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Remote Work Revolution</h5>
+                <p class="card-text">Understanding the shift to remote work and how to build effective teams...</p>
+                <p class="text-secondary small">👩‍💼 Lisa Wang • Dec 10, 2023 • ⏱ 32 min</p>
+                <a href="#" class="btn btn-custom w-100 bg-success">Listen Now</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <button class="btn btn-custom w-100 mt-3">▶ Listen Now</button>
+      </div>
+
+      <!-- Tech -->
+      <div class="tab-pane fade" id="pills-tech" role="tabpanel">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://media.istockphoto.com/id/1194868823/photo/public-speaker-giving-talk-at-business-event.jpg?s=612x612&w=0&k=20&c=eLcKiAsNoN24-mjh_N1q51aEZZ4g5_qY4dnrilJWP5Y=" class="card-img-top" alt="...">
+              <div class="card-body" style="color:#ffffff">
+                <h5 class="card-title">Latest Tech Trends</h5>
+                <p class="card-text">Stay updated with cutting-edge technologies shaping the world...</p>
+                <p class="text-secondary small">👨‍💼 John Doe • Dec 20, 2023 • ⏱ 40 min</p>
+                <a href="#" class="btn btn-custom w-100 bg-success">Listen Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://media.istockphoto.com/id/1502429660/photo/ai-tech-businessman-show-virtual-graphic-global-internet-connect-chatbot-chat-with-ai.jpg?s=612x612&w=0&k=20&c=R3GkXQiFf2uwQ6ARaNFKwUKIXVUUzwYKwBFLZtQbZ64=" class="card-img-top" alt="...">
+              <div class="card-body" style="color:#ffffff">
+                <h5 class="card-title">AI in Healthcare</h5>
+                <p class="card-text">Exploring the role of AI in advancing healthcare solutions...</p>
+                <p class="text-secondary small">👩‍💼 Dr. Emily White • Dec 18, 2023 • ⏱ 35 min</p>
+                <a href="#" class="btn btn-custom w-100 bg-success">Listen Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="color:#ffffff">
+              <img src="https://media.istockphoto.com/id/1176650872/photo/young-female-influencer-speaks-with-crowd-during-seminar.jpg?s=612x612&w=0&k=20&c=Qdwt0yH6ShPVqw1XZVwPL7r5X9sE5jJzBe0BTsWKSN8=" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Future of Technology</h5>
+                <p class="card-text">How emerging trends are reshaping industries and daily life…</p>
+                <p class="text-secondary small">👩‍💼Tony Robbins • Dec 18, 2023 • ⏱ 35 min</p>
+                <a href="#" class="btn btn-custom w-100 bg-success">Listen Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Career -->
+      <div class="tab-pane fade" id="pills-career" role="tabpanel">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card" style="color:#ffffff">
+              <img src="https://media.istockphoto.com/id/2148861850/photo/businessman-meeting-and-discussion-with-office-boardroom-and-collaboration-or-workshop-leader.webp?a=1&b=1&s=612x612&w=0&k=20&c=Nf53kQRRQND6i64gvgWJzB70pbPCts_190A5PtOyUEU=" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Career Growth Hacks</h5>
+                <p class="card-text">Learn proven strategies for advancing in your career...</p>
+                <p class="text-secondary small">👨‍💼 Alex Lee • Dec 8, 2023 • ⏱ 28 min</p>
+                <a href="#" class="btn btn-custom w-100 bg-success">Listen Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="color:#ffffff">
+              <img src="https://media.istockphoto.com/id/2174029643/photo/confident-speaker-presenting-to-engaged-audience-at-business-event.jpg?s=612x612&w=0&k=20&c=gZ9XzieyanHC3jaT7xk7zK-g5q8bHT0bZKMuSu1K8D4=" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Work-Life Balance</h5>
+                <p class="card-text">Tips and insights to balance work and personal life effectively...</p>
+                <p class="text-secondary small">👩‍💼 Simon Sinek • Dec 5, 2023 • ⏱ 30 min</p>
+                <a href="#" class="btn btn-custom w-100 bg-success">Listen Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="color:#ffffff">
+              <img src="https://media.istockphoto.com/id/1226991415/photo/portrait-of-inspirational-innovative-speaker-talking-about-happiness-self-success-empowerment.jpg?s=612x612&w=0&k=20&c=TPxj81enLbtONVJOiWtdwjWDz8F9jdU1SIkHL9jw2Ps=" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Career Success</h5>
+                <p class="card-text">Insights to grow, adapt, and succeed in your professional journey…</p>
+                <p class="text-secondary small">👩‍💼 Maria Gomez • Dec 5, 2023 • ⏱ 30 min</p>
+                <a href="#" class="btn btn-custom w-100 bg-success">Listen Now</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- Card 2 -->
-    <div class="col-md-4">
-      <div class="talk-card position-relative">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxlYWRlcnNoaXB8ZW58MHx8MHx8fDA%3D" class="talk-img" alt="Talk">
-        <span class="time-badge">38 min</span>
-        <div class="talk-body">
-          <h5 style="color:#ffffff">Building Scalable Startups</h5>
-          <p class="text-white">Learn the essential strategies for scaling your startup from idea to IPO.</p>
-           <div class="d-flex justify-content-between">
-          <small style="color:#ffffff">👨‍💼 Mark Rodriguez</small>
-          <small style="color:#ffffff">📅 Dec 12, 2023</small>
-        </div>
-        <button class="btn btn-custom w-100 mt-3">▶ Listen Now</button>
-        </div>
-      </div>
-    </div>
-    <!-- Card 3 -->
-    <div class="col-md-4">
-      <div class="talk-card position-relative">
-        <img src="https://media.istockphoto.com/id/2163665345/photo/conference-presentation-or-seminar-and-public-speaking-woman-with-microphone-on-stage-for.webp?a=1&b=1&s=612x612&w=0&k=20&c=wJDfukCQ1F3lPrMKR1lxKruKau2CsmjNJSzrG0zAagk=" class="talk-img" alt="Talk">
-        <span class="time-badge">32 min</span>
-        <div class="talk-body">
-          <h5 style="color:#ffffff">Remote Work Revolution</h5>
-          <p class="text-white">Understanding the shift to remote work and how to build effective teams.</p>
-          <div class="d-flex justify-content-between">
-          <small style="color:#ffffff">👩‍💼 Lisa Wang</small>
-          <small style="color:#ffffff">📅 Dec 10, 2023</small>
-        </div>
-        <button class="btn btn-custom w-100 mt-3">▶ Listen Now</button>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
   
-
- 
 
   <!-- View All Talks Button -->
   <div class="text-center mt-4">
