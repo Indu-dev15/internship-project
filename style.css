@@ -1,10 +1,10 @@
 
-
 /* Hero Section */
 .custom-carousel-img {
   height: 500px;      
   object-fit: cover;    
 }
+
 .container-fluid{
   margin:0  !important;
   padding:0 !important;
@@ -16,6 +16,7 @@
   background: #0c0f14 !important;
   color:#fff;
 }
+
 .brand-card {
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.1);
@@ -23,10 +24,12 @@
   transition: 0.3s;
   height: 100%;
 }
+
 .brand-card:hover {
   transform: translateY(-5px);
   background: #222222;
 }
+
 .brand-icon {
   width: 55px; 
   height: 55px;
@@ -44,40 +47,47 @@
 .nav-link {
   color: #fff !important;
   margin-right: 15px;
+
 }
 .nav-link.active {
   background-color: #212d28 !important;
   border-radius: 20px;
 }
+
 .card {
   background-color: #161b22 !important;
   border-radius: 12px;
   overflow: hidden;
   transition: transform 0.3s;
 }
+
 .card:hover {
   transform: translateY(-5px);
 }
+
 .card img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
 .btn-custom {
   background-color: #6f42c1;
   border: none;
   border-radius: 10px;
   color: #fff;
 }
+
 .btn-custom:hover {
   background-color: #5a32a3;
 }
+
 .tab-content {
   margin-top: 20px;
 }
 
+
+
 /* Testimonials Section*/
-
-
 .testimonials h2 {
   font-size: 2rem;
   margin-bottom: 10px;
@@ -108,15 +118,16 @@
   .testimonial-card {
     margin-bottom: 20px;
   }
-}
+} 
+
   .testimonial-card img {
   width: 60px;     
   height: 60px;    
   object-fit: cover;
 }
+
+
 /*subcribe section*/
-
-
 .subscribe-section {
   min-height: 100vh;
   display: flex;
@@ -171,9 +182,8 @@
   color: #58a6ff;
 }
 
+
 /*fooster section*/
-
-
 footer {
   background: #161b22;
   padding: 3rem 1rem 1rem;
