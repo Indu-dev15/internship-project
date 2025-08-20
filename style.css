@@ -41,14 +41,6 @@
 
 
 /*features talk section*/
-.body {
-  background-color: #0d1117;
-  color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.navbar {
-  background-color: #161b22;
-}
 .nav-link {
   color: #fff !important;
   margin-right: 15px;
@@ -84,10 +76,7 @@
 }
 
 /* Testimonials Section*/
-body {
-  background-color:#0c0f14 ;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 .testimonials h2 {
   font-size: 2rem;
@@ -126,11 +115,7 @@ body {
   object-fit: cover;
 }
 /*subcribe section*/
-body {
-  background: #0d1117; 
-  color: #e6edf3;
-  font-family: Arial, sans-serif;
-}
+
 
 .subscribe-section {
   min-height: 100vh;
@@ -187,11 +172,7 @@ body {
 }
 
 /*fooster section*/
-body {
-  margin: 0;
-  background-color: #0d1117; 
-  color: #e6edf3;
-}
+
 
 footer {
   background: #161b22;
